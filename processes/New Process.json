@@ -1,0 +1,28 @@
+{
+	"@type":"Process",
+	"Name":"New Process",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"New Process.ti",
+	"UIData":"ReplaceEmptyValues=1€_ParseParams={&quotskipRows&quot:&quot0&quot&#044&quotlocale&quot:{&quotlanguange&quot:&quoten&quot&#044&quotvariant&quot:&quot&quot&#044&quotcountry&quot:&quotUS&quot}&#044&quotdimensions&quot:[]&#044&quotmeasures&quot:[]&#044&quotnumColumns&quot:&quot1&quot&#044&quothasHeader&quot:&quotfalse&quot}€_DeployParams={&quotdimensionConflictResolutions&quot:{}&#044&quotclass&quot:&quotDeployParams&quot&#044&quotdataAction&quot:&quotACCUMULATE&quot}€_importSourceDefinition={\"sourceType\":\"TM1DIMENSIONSUBSET\",\"originalColumns\":null,\"tm1DimensionSubsetSource\":{\"dimensionCaption\":\"Account\",\"originalColumns\":[],\"dimensionSubsetName\":\"[Account].[Default]\",\"excludedColumns\":[],\"columns\":[{\"expression\":null,\"numberOfLongItems\":0,\"columnType\":\"STRING\",\"columnKind\":\"Dimension\",\"totalItemsNum\":0,\"totalValuesLength\":0,\"varName\":\"Account\",\"maxLength\":0,\"minLength\":10,\"columnName\":\"Account\",\"isMeasure\":false,\"numberOfEmptyItems\":0,\"sourceColumn\":0}],\"dimensionName\":\"Account\"},\"locale\":{\"localeIsDefault\":false,\"localeCurrencySymbol\":\"USD\",\"languageCode\":\"en\",\"languageDisplay\":\"English\",\"thousandsSeparator\":\",\",\"localeCode\":\"en_US\",\"localeCurrencyCode\":\"USD\",\"localeDisplay\":\"English (United States)\",\"countryDisplay\":\"United States\",\"countryCode\":\"US\",\"decimalSeparator\":\".\"},\"excludedColumns\":[],\"processName\":\"New Process\",\"columns\":[{\"expression\":null,\"numberOfLongItems\":0,\"columnType\":\"STRING\",\"columnKind\":\"Dimension\",\"totalItemsNum\":0,\"totalValuesLength\":0,\"varName\":\"Account\",\"maxLength\":0,\"minLength\":10,\"columnName\":\"Account\",\"isMeasure\":false,\"numberOfEmptyItems\":0,\"sourceColumn\":0}],\"sourceTypeHasBeenChanged\":false}€",
+	"VariablesUIData":
+	[
+		"VarType=32€ColType=1165€IgnoredInputVarName=Account€_UserVisible=Account€_UILabel=Account€_DataType=STRING€_SourceIndex=0€"
+	],
+	"DataSource":
+	{
+		"Type":"TM1DimensionSubset",
+		"dataSourceNameForClient":"Account",
+		"dataSourceNameForServer":"Account",
+		"subset":"Default"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"P",
+			"Prompt":"prompt question",
+			"Value":"n",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

@@ -1,5 +1,7 @@
 skipcheck;
 
+# Inserindo um comentario para teste de migracao
+
 ['local','line input']=DB('plan_BudgetPlanLineItem',
 !plan_version,!plan_business_unit,!plan_department,
 !plan_chart_of_accounts,'local','All Lines',!plan_time);

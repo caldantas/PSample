@@ -1,0 +1,16 @@
+{
+	"@type":"MDXView",
+	"Name":"View1",
+	"MDX@Code.link":"View1.mdx",
+	"Meta" : 
+	{
+		"Aliases" : {},
+		"ContextSets" : {},
+		"ExpandAboves" : 
+		{
+			"[ERROR.D.Items].[ERROR.D.Items]" : false,
+			"[ERROR.D.Rows].[ERROR.D.Rows]" : false,
+			"[ERROR.M.Metrics].[ERROR.M.Metrics]" : false
+		}
+	}
+}

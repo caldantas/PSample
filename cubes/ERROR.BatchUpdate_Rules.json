@@ -1,0 +1,27 @@
+{
+	"@type":"Cube",
+	"Name":"ERROR.BatchUpdate_Rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('ERROR.D.Items')"
+		},
+		{
+			"@id":"Dimensions('ERROR.D.Rows')"
+		},
+		{
+			"@id":"Dimensions('ERROR.M.Metrics')"
+		}
+	],
+	"Rules@Code.link":"ERROR.BatchUpdate_Rules.rules",
+	"Views@Code.links":
+	[
+		"ERROR.BatchUpdate_Rules.views/View2.json",
+		"ERROR.BatchUpdate_Rules.views/View_Architect.json",
+		"ERROR.BatchUpdate_Rules.views/SYS.TurboIntegrator.json",
+		"ERROR.BatchUpdate_Rules.views/View0.json",
+		"ERROR.BatchUpdate_Rules.views/View1.json",
+		"ERROR.BatchUpdate_Rules.views/View3.json",
+		"ERROR.BatchUpdate_Rules.views/View4.json"
+	]
+}

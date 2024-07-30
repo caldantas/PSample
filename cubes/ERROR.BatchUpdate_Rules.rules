@@ -1,0 +1,5 @@
+SKIPCHECK;
+
+['Rule'] = DB( 'source', !ERROR.D.Items, 'Rule', !ERROR.M.Metrics );
+
+FEEDERS;

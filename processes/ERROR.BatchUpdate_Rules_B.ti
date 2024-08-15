@@ -1,0 +1,84 @@
+#region Prolog
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+#=========================================================================
+#Region 
+#=========================================================================
+# Caso B: Con Batchupdate, realizar una escritura a elemento sin regla 
+#   y luego lectura a elemento con regla 
+# Comportamiento esperado: Cada iteracion genera un ItemReject con el 
+#   valor en la celda leida
+# Comportamiento real: Ninguna iteracion logra realizar el ItemReject, 
+#   todas leen "nullptr", causando una falla en la funcion NumberToString
+#=========================================================================
+#EndRegion 
+#=========================================================================
+
+
+BatchUpdateStart;
+
+#=========================================================================
+#Region Source View
+#DESCRIPTION 
+#AUTHOR 
+#=========================================================================
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+csCubeFrom = 'ERROR.BatchUpdate_Rules';
+
+bDelViewOrig = 1;
+sTempViewOrigin='F_' | GetProcessName() | '_' | TimSt( Now(), '\Y_\m_\d_\hh_\im_\ss' ) | '_' | NumberToStringEx( Rand, '#,0.#########', '', '' );
+ViewCreate( csCubeFrom,sTempViewOrigin, bDelViewOrig);
+
+nIndex=1;
+sDimChk = TABDIM(csCubeFrom, nIndex);
+WHILE (sDimChk @<>'');
+    sMDXview= '{TM1FILTERBYLEVEL( {TM1SUBSETALL( [' | sDimChk | '] )}, 0)}';
+
+    SubsetCreate( sDimChk, sTempViewOrigin, bDelViewOrig );
+    SubsetMDXSet( sDimChk, sTempViewOrigin, sMDXview );
+    ViewSubsetAssign( csCubeFrom , sTempViewOrigin , sDimChk, sTempViewOrigin );
+    nIndex = nIndex+1;
+    sDimChk = TABDIM(csCubeFrom, nIndex);
+ 
+END;
+
+ViewExtractSkipCalcsSet (csCubeFrom, sTempViewOrigin, 0);
+ViewExtractSkipRuleValuesSet (csCubeFrom, sTempViewOrigin, 0);
+ViewExtractSkipZeroesSet(csCubeFrom, sTempViewOrigin, 0);
+ViewSuppressZeroesSet(csCubeFrom, sTempViewOrigin, 0);
+
+DataSourceType = 'VIEW';
+DataSourceNameForServer = csCubeFrom;
+DatasourceNameForClient = csCubeFrom;
+DatasourceCubeview = sTempViewOrigin;   
+
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+#=========================================================================
+#EndRegion 
+#=========================================================================
+#endregion
+#region Metadata
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+CellPutN( 1, csCubeFrom, vsItem, 'Input', 'Value'  );
+
+nValue = CellGetN( csCubeFrom, vsItem, 'Rule', 'Value'  );
+
+ItemReject( NumberToString( nValue ) );
+
+#endregion
+#region Epilog
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+BatchUpdateFinish( 1 );
+
+#endregion

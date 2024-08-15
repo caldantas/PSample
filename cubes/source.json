@@ -1,0 +1,18 @@
+{
+	"@type":"Cube",
+	"Name":"source",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('ERROR.D.Items')"
+		},
+		{
+			"@id":"Dimensions('ERROR.D.Rows')"
+		},
+		{
+			"@id":"Dimensions('ERROR.M.Metrics')"
+		}
+	],
+	"Rules@Code.link":"source.rules",
+	"Views@Code.links":[]
+}

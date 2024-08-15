@@ -1,0 +1,7 @@
+SKIPCHECK;
+
+
+FEEDERS;
+
+['Rule'] => DB( 'ERROR.BatchUpdate_Rules', !ERROR.D.Items, 'Rule', !ERROR.M.Metrics  );
+

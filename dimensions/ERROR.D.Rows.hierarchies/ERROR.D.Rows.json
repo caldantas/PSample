@@ -1,0 +1,19 @@
+{
+	"@type":"Hierarchy",
+	"Name":"ERROR.D.Rows",
+	"Elements":
+	[
+		{
+			"Name":"Rule",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Input",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"ERROR.D.Rows.subsets/Entradas.json"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"@type":"Hierarchy",
+	"Name":"ERROR.M.Metrics",
+	"Elements":
+	[
+		{
+			"Name":"Value",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"ERROR.M.Metrics.subsets/Metrica.json"
+	]
+}

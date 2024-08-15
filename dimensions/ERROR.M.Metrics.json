@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"ERROR.M.Metrics",
+	"Hierarchies@Code.links":
+	[
+		"ERROR.M.Metrics.hierarchies/ERROR.M.Metrics.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ERROR.M.Metrics')/Hierarchies('ERROR.M.Metrics')"
+	}
+}

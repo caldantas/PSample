@@ -38,6 +38,10 @@
 		{
 			"Name":"Venezuala",
 			"Type":"String"
+		},
+		{
+			"Name":"Total!@#$%",
+			"Type":"Numeric"
 		}
 	],
 	"Subsets@Code.links":[]

@@ -1,0 +1,208 @@
+{
+	"@type":"Process",
+	"Name":"import_gross_sales_margin",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"import_gross_sales_margin.ti",
+	"UIData":"_ParseParams={&quotmeasures&quot:[{&quotcolumnType&quot:&quotINT&quot&#044&quotsourceColumn&quot:-2&#044&quotcolumnName&quot:&quotCount&quot&#044&quotlabel&quot:&quotCount&quot&#044&quotmeasureType&quot:&quotEMPTY&quot&#044&quotexpression&quot:null&#044&quotlocale&quot:&quoten_US&quot&#044&quotexists&quot:false}]&#044&quothasHeader&quot:&quottrue&quot&#044&quotnumColumns&quot:&quot21&quot&#044&quotskipRows&quot:&quot0&quot&#044&quotlocale&quot:{&quotlanguange&quot:&quoten&quot&#044&quotvariant&quot:&quot&quot&#044&quotcountry&quot:&quotUS&quot}&#044&quotdimensions&quot:[{&quotdimensionType&quot:&quotGENERIC&quot&#044&quotleafSortDirection&quot:&quotDECENDING&quot&#044&quotconsolidatedSortDirection&quot:&quotDECENDING&quot&#044&quotqualifyHierarchy&quot:true&#044&quotcreateTotalRoot&quot:false&#044&quotinvariantName&quot:&quotGross Sales Margin&quot&#044&quotlevels&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:0&#044&quotcolumnName&quot:&quotGross Sales Margin&quot&#044&quotelementWeight&quot:&quot1&quot&#044&quotlabel&quot:&quotGross Sales Margin&quot&#044&quotattributes&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:1&#044&quotcolumnName&quot:&quotHrub\\u00e1 mar\\u017ee_CS&quot&#044&quotlabel&quot:&quotHrub\\u00e1 mar\\u017ee_CS&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:2&#044&quotcolumnName&quot:&quotBruttooms\\u00e6tningsmargin_DA&quot&#044&quotlabel&quot:&quotBruttooms\\u00e6tningsmargin_DA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:3&#044&quotcolumnName&quot:&quotBruttoverkaufsgewinnspanne_DE&quot&#044&quotlabel&quot:&quotBruttoverkaufsgewinnspanne_DE&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:4&#044&quotcolumnName&quot:&quotMargen por ventas bruto_ES&quot&#044&quotlabel&quot:&quotMargen por ventas bruto_ES&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:5&#044&quotcolumnName&quot:&quotMyyntikate_FI&quot&#044&quotlabel&quot:&quotMyyntikate_FI&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:6&#044&quotcolumnName&quot:&quotMarge des ventes brutes_FR&quot&#044&quotlabel&quot:&quotMarge des ventes brutes_FR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:7&#044&quotcolumnName&quot:&quot\\u8ca9\\u58f2\\u7dcf\\u5229\\u76ca_JA&quot&#044&quotlabel&quot:&quot\\u8ca9\\u58f2\\u7dcf\\u5229\\u76ca_JA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:8&#044&quotcolumnName&quot:&quotBruto margina prodaje_HR&quot&#044&quotlabel&quot:&quotBruto margina prodaje_HR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:9&#044&quotcolumnName&quot:&quotBrutt\\u00f3 haszonkulcs_HU&quot&#044&quotlabel&quot:&quotBrutt\\u00f3 haszonkulcs_HU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:10&#044&quotcolumnName&quot:&quotMargine fatturato lordo_IT&quot&#044&quotlabel&quot:&quotMargine fatturato lordo_IT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:11&#044&quotcolumnName&quot:&quot\\ucd1d \\ud310\\ub9e4 \\uc774\\uc724_KO&quot&#044&quotlabel&quot:&quot\\ucd1d \\ud310\\ub9e4 \\uc774\\uc724_KO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:12&#044&quotcolumnName&quot:&quotBrutto salgsmargin_NO&quot&#044&quotlabel&quot:&quotBrutto salgsmargin_NO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:13&#044&quotcolumnName&quot:&quotMar\\u017ca brutto ze sprzeda\\u017cy_PL&quot&#044&quotlabel&quot:&quotMar\\u017ca brutto ze sprzeda\\u017cy_PL&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:14&#044&quotcolumnName&quot:&quotMargem de Vendas Bruta_PT&quot&#044&quotlabel&quot:&quotMargem de Vendas Bruta_PT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:15&#044&quotcolumnName&quot:&quotMarja brut\\u0103 de v\\u00e2nz\\u0103ri_RO&quot&#044&quotlabel&quot:&quotMarja brut\\u0103 de v\\u00e2nz\\u0103ri_RO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:16&#044&quotcolumnName&quot:&quot\\u041d\\u043e\\u0440\\u043c\\u0430 \\u0432\\u0430\\u043b\\u043e\\u0432\\u043e\\u0439 \\u043f\\u0440\\u0438\\u0431\\u044b\\u043b\\u0438_RU&quot&#044&quotlabel&quot:&quot\\u041d\\u043e\\u0440\\u043c\\u0430 \\u0432\\u0430\\u043b\\u043e\\u0432\\u043e\\u0439 \\u043f\\u0440\\u0438\\u0431\\u044b\\u043b\\u0438_RU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:17&#044&quotcolumnName&quot:&quot\\u6bdb\\u9500\\u552e\\u5229\\u6da6_SC&quot&#044&quotlabel&quot:&quot\\u6bdb\\u9500\\u552e\\u5229\\u6da6_SC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:18&#044&quotcolumnName&quot:&quotBruttof\\u00f6rs\\u00e4ljningsmarginal_SV&quot&#044&quotlabel&quot:&quotBruttof\\u00f6rs\\u00e4ljningsmarginal_SV&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:19&#044&quotcolumnName&quot:&quot\\u92b7\\u552e\\u6bdb\\u5229_TC&quot&#044&quotlabel&quot:&quot\\u92b7\\u552e\\u6bdb\\u5229_TC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:20&#044&quotcolumnName&quot:&quotBr\\u00fct Sat\\u0131\\u015f Marj\\u0131_TR&quot&#044&quotlabel&quot:&quotBr\\u00fct Sat\\u0131\\u015f Marj\\u0131_TR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}]&#044&quotexpression&quot:null&#044&quotexists&quot:true}]&#044&quotisMeasureDimension&quot:false&#044&quotparentChild&quot:false&#044&quotconsolidatedSortType&quot:&quotNONE&quot&#044&quotstrategy&quot:&quotMERGE&quot&#044&quotlabel&quot:&quotGross Sales Margin&quot&#044&quotisMemberUpdateStrategyChanged&quot:false&#044&quotleafSortType&quot:&quotNONE&quot&#044&quotattributes&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:1&#044&quotcolumnName&quot:&quotHrub\\u00e1 mar\\u017ee_CS&quot&#044&quotlabel&quot:&quotHrub\\u00e1 mar\\u017ee_CS&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:2&#044&quotcolumnName&quot:&quotBruttooms\\u00e6tningsmargin_DA&quot&#044&quotlabel&quot:&quotBruttooms\\u00e6tningsmargin_DA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:3&#044&quotcolumnName&quot:&quotBruttoverkaufsgewinnspanne_DE&quot&#044&quotlabel&quot:&quotBruttoverkaufsgewinnspanne_DE&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:4&#044&quotcolumnName&quot:&quotMargen por ventas bruto_ES&quot&#044&quotlabel&quot:&quotMargen por ventas bruto_ES&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:5&#044&quotcolumnName&quot:&quotMyyntikate_FI&quot&#044&quotlabel&quot:&quotMyyntikate_FI&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:6&#044&quotcolumnName&quot:&quotMarge des ventes brutes_FR&quot&#044&quotlabel&quot:&quotMarge des ventes brutes_FR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:7&#044&quotcolumnName&quot:&quot\\u8ca9\\u58f2\\u7dcf\\u5229\\u76ca_JA&quot&#044&quotlabel&quot:&quot\\u8ca9\\u58f2\\u7dcf\\u5229\\u76ca_JA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:8&#044&quotcolumnName&quot:&quotBruto margina prodaje_HR&quot&#044&quotlabel&quot:&quotBruto margina prodaje_HR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:9&#044&quotcolumnName&quot:&quotBrutt\\u00f3 haszonkulcs_HU&quot&#044&quotlabel&quot:&quotBrutt\\u00f3 haszonkulcs_HU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:10&#044&quotcolumnName&quot:&quotMargine fatturato lordo_IT&quot&#044&quotlabel&quot:&quotMargine fatturato lordo_IT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:11&#044&quotcolumnName&quot:&quot\\ucd1d \\ud310\\ub9e4 \\uc774\\uc724_KO&quot&#044&quotlabel&quot:&quot\\ucd1d \\ud310\\ub9e4 \\uc774\\uc724_KO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:12&#044&quotcolumnName&quot:&quotBrutto salgsmargin_NO&quot&#044&quotlabel&quot:&quotBrutto salgsmargin_NO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:13&#044&quotcolumnName&quot:&quotMar\\u017ca brutto ze sprzeda\\u017cy_PL&quot&#044&quotlabel&quot:&quotMar\\u017ca brutto ze sprzeda\\u017cy_PL&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:14&#044&quotcolumnName&quot:&quotMargem de Vendas Bruta_PT&quot&#044&quotlabel&quot:&quotMargem de Vendas Bruta_PT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:15&#044&quotcolumnName&quot:&quotMarja brut\\u0103 de v\\u00e2nz\\u0103ri_RO&quot&#044&quotlabel&quot:&quotMarja brut\\u0103 de v\\u00e2nz\\u0103ri_RO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:16&#044&quotcolumnName&quot:&quot\\u041d\\u043e\\u0440\\u043c\\u0430 \\u0432\\u0430\\u043b\\u043e\\u0432\\u043e\\u0439 \\u043f\\u0440\\u0438\\u0431\\u044b\\u043b\\u0438_RU&quot&#044&quotlabel&quot:&quot\\u041d\\u043e\\u0440\\u043c\\u0430 \\u0432\\u0430\\u043b\\u043e\\u0432\\u043e\\u0439 \\u043f\\u0440\\u0438\\u0431\\u044b\\u043b\\u0438_RU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:17&#044&quotcolumnName&quot:&quot\\u6bdb\\u9500\\u552e\\u5229\\u6da6_SC&quot&#044&quotlabel&quot:&quot\\u6bdb\\u9500\\u552e\\u5229\\u6da6_SC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:18&#044&quotcolumnName&quot:&quotBruttof\\u00f6rs\\u00e4ljningsmarginal_SV&quot&#044&quotlabel&quot:&quotBruttof\\u00f6rs\\u00e4ljningsmarginal_SV&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:19&#044&quotcolumnName&quot:&quot\\u92b7\\u552e\\u6bdb\\u5229_TC&quot&#044&quotlabel&quot:&quot\\u92b7\\u552e\\u6bdb\\u5229_TC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:20&#044&quotcolumnName&quot:&quotBr\\u00fct Sat\\u0131\\u015f Marj\\u0131_TR&quot&#044&quotlabel&quot:&quotBr\\u00fct Sat\\u0131\\u015f Marj\\u0131_TR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}]&#044&quotqualifySeparator&quot:&quot&#044 &quot&#044&quotexists&quot:true}]}€_DeployParams={&quotdataAction&quot:&quotACCUMULATE&quot&#044&quotclass&quot:&quotDeployParams&quot&#044&quotdimensionConflictResolutions&quot:{}}€",
+	"VariablesUIData":
+	[
+		"_DimCaption=Gross Sales Margin€_DimType=GENERIC€VarType=32€ColType=825€VarDimension=Gross Sales Margin€VarDimOrder=1€VarDimAction=Update€VarElemType=Numeric€VarDimElemSortType=ByInput€VarDimElemSortSense=DESCENDING€_LevelCaption=Gross Sales Margin€_UserVisible=v_Gross_Sales_Margin_0€_UILabel=Gross Sales Margin€_DataType=STRING€_SourceIndex=0€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Hrubá marže_CS€AttributeType=Alias€_UserVisible=v_Hrub__mar_e_CS_1€_UILabel=Hrubá marže_CS€_DataType=STRING€_SourceIndex=1€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Bruttoomsætningsmargin_DA€AttributeType=Alias€_UserVisible=v_Bruttooms_tningsmargin_DA_2€_UILabel=Bruttoomsætningsmargin_DA€_DataType=STRING€_SourceIndex=2€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Bruttoverkaufsgewinnspanne_DE€AttributeType=Alias€_UserVisible=v_Bruttoverkaufsgewinnspanne_DE_3€_UILabel=Bruttoverkaufsgewinnspanne_DE€_DataType=STRING€_SourceIndex=3€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Margen por ventas bruto_ES€AttributeType=Alias€_UserVisible=v_Margen_por_ventas_bruto_ES_4€_UILabel=Margen por ventas bruto_ES€_DataType=STRING€_SourceIndex=4€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Myyntikate_FI€AttributeType=Alias€_UserVisible=v_Myyntikate_FI_5€_UILabel=Myyntikate_FI€_DataType=STRING€_SourceIndex=5€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Marge des ventes brutes_FR€AttributeType=Alias€_UserVisible=v_Marge_des_ventes_brutes_FR_6€_UILabel=Marge des ventes brutes_FR€_DataType=STRING€_SourceIndex=6€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=?????_JA€AttributeType=Alias€_UserVisible=v_______JA_7€_UILabel=?????_JA€_DataType=STRING€_SourceIndex=7€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Bruto margina prodaje_HR€AttributeType=Alias€_UserVisible=v_Bruto_margina_prodaje_HR_8€_UILabel=Bruto margina prodaje_HR€_DataType=STRING€_SourceIndex=8€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Bruttó haszonkulcs_HU€AttributeType=Alias€_UserVisible=v_Brutt__haszonkulcs_HU_9€_UILabel=Bruttó haszonkulcs_HU€_DataType=STRING€_SourceIndex=9€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Margine fatturato lordo_IT€AttributeType=Alias€_UserVisible=v_Margine_fatturato_lordo_IT_10€_UILabel=Margine fatturato lordo_IT€_DataType=STRING€_SourceIndex=10€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=? ?? ??_KO€AttributeType=Alias€_UserVisible=v_________KO_11€_UILabel=? ?? ??_KO€_DataType=STRING€_SourceIndex=11€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Brutto salgsmargin_NO€AttributeType=Alias€_UserVisible=v_Brutto_salgsmargin_NO_12€_UILabel=Brutto salgsmargin_NO€_DataType=STRING€_SourceIndex=12€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Mar?a brutto ze sprzeda?y_PL€AttributeType=Alias€_UserVisible=v_Mar_a_brutto_ze_sprzeda_y_PL_13€_UILabel=Mar?a brutto ze sprzeda?y_PL€_DataType=STRING€_SourceIndex=13€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Margem de Vendas Bruta_PT€AttributeType=Alias€_UserVisible=v_Margem_de_Vendas_Bruta_PT_14€_UILabel=Margem de Vendas Bruta_PT€_DataType=STRING€_SourceIndex=14€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Marja brut? de vânz?ri_RO€AttributeType=Alias€_UserVisible=v_Marja_brut__de_v_nz_ri_RO_15€_UILabel=Marja brut? de vânz?ri_RO€_DataType=STRING€_SourceIndex=15€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=????? ??????? ???????_RU€AttributeType=Alias€_UserVisible=v_______________________RU_16€_UILabel=????? ??????? ???????_RU€_DataType=STRING€_SourceIndex=16€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=?????_SC€AttributeType=Alias€_UserVisible=v_______SC_17€_UILabel=?????_SC€_DataType=STRING€_SourceIndex=17€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Bruttoförsäljningsmarginal_SV€AttributeType=Alias€_UserVisible=v_Bruttof_rs_ljningsmarginal_SV_18€_UILabel=Bruttoförsäljningsmarginal_SV€_DataType=STRING€_SourceIndex=18€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=????_TC€AttributeType=Alias€_UserVisible=v______TC_19€_UILabel=????_TC€_DataType=STRING€_SourceIndex=19€",
+		"VarType=32€ColType=841€AttributeDim=Gross Sales Margin€AttributeElemVar=v_Gross_Sales_Margin_0€AttributeAction=Update€AttributeName=Brüt Sat?? Marj?_TR€AttributeType=Alias€_UserVisible=v_Br_t_Sat___Marj__TR_20€_UILabel=Brüt Sat?? Marj?_TR€_DataType=STRING€_SourceIndex=20€"
+	],
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"asciiDecimalSeparator":".",
+		"asciiDelimiterChar":"\t",
+		"asciiDelimiterType":"Character",
+		"asciiHeaderRecords":1,
+		"asciiQuoteCharacter":"\"",
+		"asciiThousandSeparator":",",
+		"dataSourceNameForClient":"C:\\Program Files\\IBM\\cognos\\tm1\\samples\\tm1\\GO_New_Stores\\translation files\\gross_sales_margin.txt",
+		"dataSourceNameForServer":"../translation files/gross_sales_margin.txt"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"param_destroy",
+			"Prompt":"Destroy dimensions",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"param_createIfNotExist",
+			"Prompt":"Create dimensions if they do not exist",
+			"Value":1,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"v_Gross_Sales_Margin_0",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Hrub__mar_e_CS_1",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Bruttooms_tningsmargin_DA_2",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Bruttoverkaufsgewinnspanne_DE_3",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Margen_por_ventas_bruto_ES_4",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Myyntikate_FI_5",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Marge_des_ventes_brutes_FR_6",
+			"Type":"String",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_______JA_7",
+			"Type":"String",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Bruto_margina_prodaje_HR_8",
+			"Type":"String",
+			"Position":9,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Brutt__haszonkulcs_HU_9",
+			"Type":"String",
+			"Position":10,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Margine_fatturato_lordo_IT_10",
+			"Type":"String",
+			"Position":11,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_________KO_11",
+			"Type":"String",
+			"Position":12,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Brutto_salgsmargin_NO_12",
+			"Type":"String",
+			"Position":13,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Mar_a_brutto_ze_sprzeda_y_PL_13",
+			"Type":"String",
+			"Position":14,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Margem_de_Vendas_Bruta_PT_14",
+			"Type":"String",
+			"Position":15,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Marja_brut__de_v_nz_ri_RO_15",
+			"Type":"String",
+			"Position":16,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_______________________RU_16",
+			"Type":"String",
+			"Position":17,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_______SC_17",
+			"Type":"String",
+			"Position":18,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Bruttof_rs_ljningsmarginal_SV_18",
+			"Type":"String",
+			"Position":19,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v______TC_19",
+			"Type":"String",
+			"Position":20,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Br_t_Sat___Marj__TR_20",
+			"Type":"String",
+			"Position":21,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

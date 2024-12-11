@@ -1,0 +1,44 @@
+{
+	"@type":"Hierarchy",
+	"Name":"}ProgressTimings",
+	"ElementsSortType":"ByHierarchy",
+	"Elements":
+	[
+		{
+			"Name":"CUBE-Store Sales Plan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIMENSION-Promotions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIMENSION-Store Sales Plan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIMENSION-Month",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIMENSION-Assumptions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIMENSION-Existing Stores Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIMENSION-Gross Sales Margin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PROCESS-import_Products",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"}ProgressTimings.subsets/All Members.json"
+	]
+}

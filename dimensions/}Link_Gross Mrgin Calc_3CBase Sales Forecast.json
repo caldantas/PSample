@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"}Link_Gross Mrgin Calc_3CBase Sales Forecast",
+	"Hierarchies@Code.links":
+	[
+		"}Link_Gross Mrgin Calc_3CBase Sales Forecast.hierarchies/}Link_Gross Mrgin Calc_3CBase Sales Forecast.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('}Link_Gross Mrgin Calc_3CBase Sales Forecast')/Hierarchies('}Link_Gross Mrgin Calc_3CBase Sales Forecast')"
+	}
+}

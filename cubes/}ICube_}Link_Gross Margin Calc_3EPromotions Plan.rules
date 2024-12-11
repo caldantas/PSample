@@ -1,0 +1,35 @@
+SKIPCHECK;
+[] = N:IF(!Store Type @<> DB('Promotions Plan', !Country and Region, 
+    !ID numbers, !Budget version, 'Franchise/Corporate'), CONTINUE, 
+    IF(!Month @<> DB('Promotions Plan', !Country and Region, 
+    !ID numbers, !Budget version, 'Month of Promotion'), CONTINUE, 
+    IF(!Retailers @<> DB('Promotions Plan', !Country and Region, 
+    !ID numbers, !Budget version, 'Retailer Type'), CONTINUE, 
+    DB('Promotions Plan', !Country and Region, !ID numbers, !Budget version, 
+    !Promotions))));
+
+FEEDERS;
+['Promotions':'Sales Increase %', 'Retailers':'ALL RETAILERS', 'ID numbers':{'1','2','3','4','5','6','7','8','9','10'}] => DB('Gross Margin Calculation', 
+    'Sports Store', !Country and Region, !Store Type, !Month, 
+    !Budget version, 'Effect of All Store Promotions');
+['Promotions':'Sales Increase %', 'Retailers':'ALL RETAILERS', 'ID numbers':{'1','2','3','4','5','6','7','8','9','10'}] => DB('Gross Margin Calculation', 
+    'Eyewear Store', !Country and Region, !Store Type, !Month, 
+    !Budget version, 'Effect of All Store Promotions');
+['Promotions':'Sales Increase %', 'Retailers':'ALL RETAILERS', 'ID numbers':{'1','2','3','4','5','6','7','8','9','10'}] => DB('Gross Margin Calculation', 
+    'Department Store', !Country and Region, !Store Type, !Month, 
+    !Budget version, 'Effect of All Store Promotions');
+['Promotions':'Sales Increase %', 'Retailers':'ALL RETAILERS', 'ID numbers':{'1','2','3','4','5','6','7','8','9','10'}] => DB('Gross Margin Calculation', 
+    'Golf Shop', !Country and Region, !Store Type, !Month, !Budget version, 
+    'Effect of All Store Promotions');
+['Promotions':'Sales Increase %', 'Retailers':'ALL RETAILERS', 'ID numbers':{'1','2','3','4','5','6','7','8','9','10'}] => DB('Gross Margin Calculation', 
+    'Warehouse Store', !Country and Region, !Store Type, !Month, 
+    !Budget version, 'Effect of All Store Promotions');
+['Promotions':'Sales Increase %', 'Retailers':'ALL RETAILERS', 'ID numbers':{'1','2','3','4','5','6','7','8','9','10'}] => DB('Gross Margin Calculation', 
+    'Equipment Rental Store', !Country and Region, !Store Type, 
+    !Month, !Budget version, 'Effect of All Store Promotions');
+['Promotions':'Sales Increase %', 'Retailers':'ALL RETAILERS', 'ID numbers':{'1','2','3','4','5','6','7','8','9','10'}] => DB('Gross Margin Calculation', 
+    'Direct Marketing', !Country and Region, !Store Type, !Month, 
+    !Budget version, 'Effect of All Store Promotions');
+['Promotions':'Sales Increase %', 'Retailers':'ALL RETAILERS', 'ID numbers':{'1','2','3','4','5','6','7','8','9','10'}] => DB('Gross Margin Calculation', 
+    'Outdoors Shop', !Country and Region, !Store Type, !Month, 
+    !Budget version, 'Effect of All Store Promotions');

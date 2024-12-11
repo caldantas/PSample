@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"}Link_Store Sales Plan_3CExchange Rates",
+	"Hierarchies@Code.links":
+	[
+		"}Link_Store Sales Plan_3CExchange Rates.hierarchies/}Link_Store Sales Plan_3CExchange Rates.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('}Link_Store Sales Plan_3CExchange Rates')/Hierarchies('}Link_Store Sales Plan_3CExchange Rates')"
+	}
+}

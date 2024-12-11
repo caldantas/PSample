@@ -1,0 +1,34 @@
+{
+	"@type":"Cube",
+	"Name":"}ICube_}Link_Gross Margin Calc_3EPromotions Plan",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Retailers')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('Store Type')"
+		},
+		{
+			"@id":"Dimensions('Country and Region')"
+		},
+		{
+			"@id":"Dimensions('ID numbers')"
+		},
+		{
+			"@id":"Dimensions('Budget version')"
+		},
+		{
+			"@id":"Dimensions('Promotions')"
+		}
+	],
+	"Rules@Code.link":"}ICube_}Link_Gross Margin Calc_3EPromotions Plan.rules",
+	"Views@Code.links":
+	[
+		"}ICube_}Link_Gross Margin Calc_3EPromotions Plan.views/All.json",
+		"}ICube_}Link_Gross Margin Calc_3EPromotions Plan.views/ICube_}Link_Gross Margin Calc_3EPromotions Plan.json"
+	]
+}

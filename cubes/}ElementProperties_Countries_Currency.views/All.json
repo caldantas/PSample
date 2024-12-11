@@ -1,0 +1,34 @@
+{
+	"@type":"NativeView",
+	"Name":"All",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('}ElementProperties')/Hierarchies('}ElementProperties')"
+				},
+				"Expression":"TM1SubsetAll([}ElementProperties])"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Countries_Currency')/Hierarchies('Countries_Currency')"
+				},
+				"Expression":"TM1SubsetAll([Countries_Currency])"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.00"
+}

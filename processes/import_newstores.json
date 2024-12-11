@@ -1,0 +1,208 @@
+{
+	"@type":"Process",
+	"Name":"import_newstores",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"import_newstores.ti",
+	"UIData":"CubeAction=1511€DataAction=1504€CubeLogChanges=0€MeasuresDimOrder=1€_DeployParams={&quotdataAction&quot:&quotACCUMULATE&quot&#044&quotclass&quot:&quotDeployParams&quot&#044&quotdimensionConflictResolutions&quot:{}}€_ParseParams={&quotmeasures&quot:[{&quotcolumnType&quot:&quotINT&quot&#044&quotsourceColumn&quot:-2&#044&quotcolumnName&quot:&quotCount&quot&#044&quotlabel&quot:&quotCount&quot&#044&quotmeasureType&quot:&quotEMPTY&quot&#044&quotexpression&quot:null&#044&quotlocale&quot:&quoten_US&quot&#044&quotexists&quot:false}]&#044&quothasHeader&quot:&quottrue&quot&#044&quotnumColumns&quot:&quot21&quot&#044&quotskipRows&quot:&quot0&quot&#044&quotlocale&quot:{&quotlanguange&quot:&quoten&quot&#044&quotvariant&quot:&quot&quot&#044&quotcountry&quot:&quotUS&quot}&#044&quotdimensions&quot:[{&quotdimensionType&quot:&quotGENERIC&quot&#044&quotleafSortDirection&quot:&quotDECENDING&quot&#044&quotconsolidatedSortDirection&quot:&quotDECENDING&quot&#044&quotqualifyHierarchy&quot:true&#044&quotcreateTotalRoot&quot:false&#044&quotinvariantName&quot:&quotNew Stores&quot&#044&quotlevels&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:0&#044&quotcolumnName&quot:&quotNew Stores&quot&#044&quotelementWeight&quot:&quot1&quot&#044&quotlabel&quot:&quotNew Stores&quot&#044&quotattributes&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:1&#044&quotcolumnName&quot:&quotNov\\u00e9 prodejny_CS&quot&#044&quotlabel&quot:&quotNov\\u00e9 prodejny_CS&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:2&#044&quotcolumnName&quot:&quotNye butikker_DA&quot&#044&quotlabel&quot:&quotNye butikker_DA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:3&#044&quotcolumnName&quot:&quotNeue Gesch\\u00e4fte_DE&quot&#044&quotlabel&quot:&quotNeue Gesch\\u00e4fte_DE&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:4&#044&quotcolumnName&quot:&quotNuevas tiendas_ES&quot&#044&quotlabel&quot:&quotNuevas tiendas_ES&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:5&#044&quotcolumnName&quot:&quotUudet myym\\u00e4l\\u00e4t_FI&quot&#044&quotlabel&quot:&quotUudet myym\\u00e4l\\u00e4t_FI&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:6&#044&quotcolumnName&quot:&quotNouveaux magasins_FR&quot&#044&quotlabel&quot:&quotNouveaux magasins_FR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:7&#044&quotcolumnName&quot:&quot\\u65b0\\u898f\\u5e97_JA&quot&#044&quotlabel&quot:&quot\\u65b0\\u898f\\u5e97_JA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:8&#044&quotcolumnName&quot:&quotNovi du\\u0107ani_HR&quot&#044&quotlabel&quot:&quotNovi du\\u0107ani_HR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:9&#044&quotcolumnName&quot:&quot\\u00daj \\u00e1ruh\\u00e1zak_HU&quot&#044&quotlabel&quot:&quot\\u00daj \\u00e1ruh\\u00e1zak_HU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:10&#044&quotcolumnName&quot:&quotNuovi negozi_IT&quot&#044&quotlabel&quot:&quotNuovi negozi_IT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:11&#044&quotcolumnName&quot:&quot\\uc2e0\\uaddc \\uc0c1\\uc810_KO&quot&#044&quotlabel&quot:&quot\\uc2e0\\uaddc \\uc0c1\\uc810_KO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:12&#044&quotcolumnName&quot:&quotNye butikker_NO&quot&#044&quotlabel&quot:&quotNye butikker_NO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:13&#044&quotcolumnName&quot:&quotNowe salony_PL&quot&#044&quotlabel&quot:&quotNowe salony_PL&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:14&#044&quotcolumnName&quot:&quotNovas Lojas_PT&quot&#044&quotlabel&quot:&quotNovas Lojas_PT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:15&#044&quotcolumnName&quot:&quotNoi Magazine_RO&quot&#044&quotlabel&quot:&quotNoi Magazine_RO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:16&#044&quotcolumnName&quot:&quot\\u041d\\u043e\\u0432\\u044b\\u0435 \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d\\u044b_RU&quot&#044&quotlabel&quot:&quot\\u041d\\u043e\\u0432\\u044b\\u0435 \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d\\u044b_RU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:17&#044&quotcolumnName&quot:&quot\\u65b0\\u5546\\u5e97_SC&quot&#044&quotlabel&quot:&quot\\u65b0\\u5546\\u5e97_SC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:18&#044&quotcolumnName&quot:&quotNya butiker_SV&quot&#044&quotlabel&quot:&quotNya butiker_SV&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:19&#044&quotcolumnName&quot:&quot\\u65b0\\u5546\\u5e97_TC&quot&#044&quotlabel&quot:&quot\\u65b0\\u5546\\u5e97_TC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:20&#044&quotcolumnName&quot:&quotYeni Ma\\u011fazalar_TR&quot&#044&quotlabel&quot:&quotYeni Ma\\u011fazalar_TR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}]&#044&quotexpression&quot:null&#044&quotexists&quot:true}]&#044&quotisMeasureDimension&quot:false&#044&quotparentChild&quot:false&#044&quotconsolidatedSortType&quot:&quotNONE&quot&#044&quotstrategy&quot:&quotMERGE&quot&#044&quotlabel&quot:&quotNew Stores&quot&#044&quotisMemberUpdateStrategyChanged&quot:false&#044&quotleafSortType&quot:&quotNONE&quot&#044&quotattributes&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:1&#044&quotcolumnName&quot:&quotNov\\u00e9 prodejny_CS&quot&#044&quotlabel&quot:&quotNov\\u00e9 prodejny_CS&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:2&#044&quotcolumnName&quot:&quotNye butikker_DA&quot&#044&quotlabel&quot:&quotNye butikker_DA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:3&#044&quotcolumnName&quot:&quotNeue Gesch\\u00e4fte_DE&quot&#044&quotlabel&quot:&quotNeue Gesch\\u00e4fte_DE&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:4&#044&quotcolumnName&quot:&quotNuevas tiendas_ES&quot&#044&quotlabel&quot:&quotNuevas tiendas_ES&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:5&#044&quotcolumnName&quot:&quotUudet myym\\u00e4l\\u00e4t_FI&quot&#044&quotlabel&quot:&quotUudet myym\\u00e4l\\u00e4t_FI&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:6&#044&quotcolumnName&quot:&quotNouveaux magasins_FR&quot&#044&quotlabel&quot:&quotNouveaux magasins_FR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:7&#044&quotcolumnName&quot:&quot\\u65b0\\u898f\\u5e97_JA&quot&#044&quotlabel&quot:&quot\\u65b0\\u898f\\u5e97_JA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:8&#044&quotcolumnName&quot:&quotNovi du\\u0107ani_HR&quot&#044&quotlabel&quot:&quotNovi du\\u0107ani_HR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:9&#044&quotcolumnName&quot:&quot\\u00daj \\u00e1ruh\\u00e1zak_HU&quot&#044&quotlabel&quot:&quot\\u00daj \\u00e1ruh\\u00e1zak_HU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:10&#044&quotcolumnName&quot:&quotNuovi negozi_IT&quot&#044&quotlabel&quot:&quotNuovi negozi_IT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:11&#044&quotcolumnName&quot:&quot\\uc2e0\\uaddc \\uc0c1\\uc810_KO&quot&#044&quotlabel&quot:&quot\\uc2e0\\uaddc \\uc0c1\\uc810_KO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:12&#044&quotcolumnName&quot:&quotNye butikker_NO&quot&#044&quotlabel&quot:&quotNye butikker_NO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:13&#044&quotcolumnName&quot:&quotNowe salony_PL&quot&#044&quotlabel&quot:&quotNowe salony_PL&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:14&#044&quotcolumnName&quot:&quotNovas Lojas_PT&quot&#044&quotlabel&quot:&quotNovas Lojas_PT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:15&#044&quotcolumnName&quot:&quotNoi Magazine_RO&quot&#044&quotlabel&quot:&quotNoi Magazine_RO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:16&#044&quotcolumnName&quot:&quot\\u041d\\u043e\\u0432\\u044b\\u0435 \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d\\u044b_RU&quot&#044&quotlabel&quot:&quot\\u041d\\u043e\\u0432\\u044b\\u0435 \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d\\u044b_RU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:17&#044&quotcolumnName&quot:&quot\\u65b0\\u5546\\u5e97_SC&quot&#044&quotlabel&quot:&quot\\u65b0\\u5546\\u5e97_SC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:18&#044&quotcolumnName&quot:&quotNya butiker_SV&quot&#044&quotlabel&quot:&quotNya butiker_SV&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:19&#044&quotcolumnName&quot:&quot\\u65b0\\u5546\\u5e97_TC&quot&#044&quotlabel&quot:&quot\\u65b0\\u5546\\u5e97_TC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:20&#044&quotcolumnName&quot:&quotYeni Ma\\u011fazalar_TR&quot&#044&quotlabel&quot:&quotYeni Ma\\u011fazalar_TR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}]&#044&quotqualifySeparator&quot:&quot&#044 &quot&#044&quotexists&quot:true}]}€",
+	"VariablesUIData":
+	[
+		"_DataType=STRING€_DimCaption=New Stores€_DimType=GENERIC€_LevelCaption=New Stores€_SourceIndex=0€_UILabel=New Stores€_UserVisible=v_New_Stores_0€VarType=32€ColType=825€VarDimension=New Stores€VarDimAction=Update€VarElemType=Numeric€VarDimOrder=1€VarDimElemSortType=BYINPUT€VarDimElemSortSense=DESCENDING€",
+		"_DataType=STRING€_SourceIndex=1€_UILabel=Nové prodejny_CS€_UserVisible=v_Nov__prodejny_CS_1€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Nové prodejny_CS€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=2€_UILabel=Nye butikker_DA€_UserVisible=v_Nye_butikker_DA_2€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Nye butikker_DA€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=3€_UILabel=Neue Geschäfte_DE€_UserVisible=v_Neue_Gesch_fte_DE_3€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Neue Geschäfte_DE€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=4€_UILabel=Nuevas tiendas_ES€_UserVisible=v_Nuevas_tiendas_ES_4€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Nuevas tiendas_ES€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=5€_UILabel=Uudet myymälät_FI€_UserVisible=v_Uudet_myym_l_t_FI_5€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Uudet myymälät_FI€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=6€_UILabel=Nouveaux magasins_FR€_UserVisible=v_Nouveaux_magasins_FR_6€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Nouveaux magasins_FR€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=7€_UILabel=???_JA€_UserVisible=v_____JA_7€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=???_JA€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=8€_UILabel=Novi du?ani_HR€_UserVisible=v_Novi_du_ani_HR_8€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Novi du?ani_HR€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=9€_UILabel=Új áruházak_HU€_UserVisible=v__j__ruh_zak_HU_9€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Új áruházak_HU€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=10€_UILabel=Nuovi negozi_IT€_UserVisible=v_Nuovi_negozi_IT_10€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Nuovi negozi_IT€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=11€_UILabel=?? ??_KO€_UserVisible=v_______KO_11€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=?? ??_KO€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=12€_UILabel=Nye butikker_NO€_UserVisible=v_Nye_butikker_NO_12€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Nye butikker_NO€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=13€_UILabel=Nowe salony_PL€_UserVisible=v_Nowe_salony_PL_13€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Nowe salony_PL€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=14€_UILabel=Novas Lojas_PT€_UserVisible=v_Novas_Lojas_PT_14€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Novas Lojas_PT€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=15€_UILabel=Noi Magazine_RO€_UserVisible=v_Noi_Magazine_RO_15€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Noi Magazine_RO€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=16€_UILabel=????? ????????_RU€_UserVisible=v________________RU_16€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=????? ????????_RU€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=17€_UILabel=???_SC€_UserVisible=v_____SC_17€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=???_SC€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=18€_UILabel=Nya butiker_SV€_UserVisible=v_Nya_butiker_SV_18€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Nya butiker_SV€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=19€_UILabel=???_TC€_UserVisible=v_____TC_19€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=???_TC€AttributeType=Alias€",
+		"_DataType=STRING€_SourceIndex=20€_UILabel=Yeni Ma?azalar_TR€_UserVisible=v_Yeni_Ma_azalar_TR_20€VarType=32€ColType=841€AttributeDim=New Stores€AttributeElemVar=v_New_Stores_0€AttributeAction=Update€AttributeName=Yeni Ma?azalar_TR€AttributeType=Alias€"
+	],
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"asciiDecimalSeparator":".",
+		"asciiDelimiterChar":"\t",
+		"asciiDelimiterType":"Character",
+		"asciiHeaderRecords":1,
+		"asciiQuoteCharacter":"\"",
+		"asciiThousandSeparator":",",
+		"dataSourceNameForClient":"..\\translation files\\new_stores.txt",
+		"dataSourceNameForServer":"../translation files/new_stores.txt"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"param_destroy",
+			"Prompt":"Destroy dimensions",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"param_createIfNotExist",
+			"Prompt":"Create dimensions if they do not exist",
+			"Value":1,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"v_New_Stores_0",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Nov__prodejny_CS_1",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Nye_butikker_DA_2",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Neue_Gesch_fte_DE_3",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Nuevas_tiendas_ES_4",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Uudet_myym_l_t_FI_5",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Nouveaux_magasins_FR_6",
+			"Type":"String",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_____JA_7",
+			"Type":"String",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Novi_du_ani_HR_8",
+			"Type":"String",
+			"Position":9,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v__j__ruh_zak_HU_9",
+			"Type":"String",
+			"Position":10,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Nuovi_negozi_IT_10",
+			"Type":"String",
+			"Position":11,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_______KO_11",
+			"Type":"String",
+			"Position":12,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Nye_butikker_NO_12",
+			"Type":"String",
+			"Position":13,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Nowe_salony_PL_13",
+			"Type":"String",
+			"Position":14,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Novas_Lojas_PT_14",
+			"Type":"String",
+			"Position":15,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Noi_Magazine_RO_15",
+			"Type":"String",
+			"Position":16,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v________________RU_16",
+			"Type":"String",
+			"Position":17,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_____SC_17",
+			"Type":"String",
+			"Position":18,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Nya_butiker_SV_18",
+			"Type":"String",
+			"Position":19,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_____TC_19",
+			"Type":"String",
+			"Position":20,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Yeni_Ma_azalar_TR_20",
+			"Type":"String",
+			"Position":21,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

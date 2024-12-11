@@ -1,0 +1,17 @@
+{
+	"@type":"Cube",
+	"Name":"}ElementProperties_Countries_Currency",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Countries_Currency')"
+		},
+		{
+			"@id":"Dimensions('}ElementProperties')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"}ElementProperties_Countries_Currency.views/All.json"
+	]
+}

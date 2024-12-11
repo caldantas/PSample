@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"}Link_Store Sales Plan_3CCurrency Info",
+	"Hierarchies@Code.links":
+	[
+		"}Link_Store Sales Plan_3CCurrency Info.hierarchies/}Link_Store Sales Plan_3CCurrency Info.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('}Link_Store Sales Plan_3CCurrency Info')/Hierarchies('}Link_Store Sales Plan_3CCurrency Info')"
+	}
+}

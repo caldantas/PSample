@@ -1,0 +1,18 @@
+{
+	"@type":"Cube",
+	"Name":"}formatTesterCube",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('}formatTesterDimensionA')"
+		},
+		{
+			"@id":"Dimensions('}formatTesterDimensionB')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"}formatTesterCube.views/All.json",
+		"}formatTesterCube.views/formatTesterCube.json"
+	]
+}

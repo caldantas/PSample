@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"}ElementAnnotations_Country and Region",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('}Annotation_ApplicationID')"
+		},
+		{
+			"@id":"Dimensions('Country and Region')"
+		},
+		{
+			"@id":"Dimensions('}AnnotationMeasures')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"}ElementAnnotations_Country and Region.views/All.json"
+	]
+}

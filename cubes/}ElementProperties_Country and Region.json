@@ -1,0 +1,17 @@
+{
+	"@type":"Cube",
+	"Name":"}ElementProperties_Country and Region",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Country and Region')"
+		},
+		{
+			"@id":"Dimensions('}ElementProperties')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"}ElementProperties_Country and Region.views/All.json"
+	]
+}

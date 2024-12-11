@@ -1,0 +1,21 @@
+{
+	"@type":"Cube",
+	"Name":"}DimensionFormats_plan_chart_of_accounts",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('plan_chart_of_accounts')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatStyles_plan_chart_of_accounts')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatItems')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatAttributes')"
+		}
+	],
+	"Rules@Code.link":"}DimensionFormats_plan_chart_of_accounts.rules",
+	"Views@Code.links":[]
+}

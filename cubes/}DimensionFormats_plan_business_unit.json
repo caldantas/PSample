@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"}DimensionFormats_plan_business_unit",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('plan_business_unit')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatStyles_plan_business_unit')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatItems')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatAttributes')"
+		}
+	],
+	"Views@Code.links":[]
+}

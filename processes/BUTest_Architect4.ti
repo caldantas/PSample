@@ -1,0 +1,39 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+BatchUpdateStart;
+
+OldCubeLogChanges = CUBEGETLOGCHANGES('ERROR.BatchUpdate_Rules');
+CUBESETLOGCHANGES('ERROR.BatchUpdate_Rules', 0);
+
+# csCubeFrom='ERROR.BatchUpdate_Rules';
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+# nValue = CellGetN( 'ERROR.BatchUpdate_Rules', vItems, 'Rule',vMetrics);
+# if (VALUE_IS_STRING=1, CellPutS(SVALUE,'ERROR.BatchUpdate_Rules',vItems,'Input',vMetrics), CellPutN(NVALUE, 'ERROR.BatchUpdate_Rules', vItems,'Input',vMetrics));
+CellPutN( vValor + 5, 'ERROR.BatchUpdate_Rules', vItems,'Input',vMetrics);
+
+# ItemReject( NumberToString( nValue ) );
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+CUBESETLOGCHANGES('ERROR.BatchUpdate_Rules', OldCubeLogChanges);
+
+BatchUpdateFinish(0);
+#endregion

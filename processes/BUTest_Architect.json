@@ -1,0 +1,53 @@
+{
+	"@type":"Process",
+	"Name":"BUTest_Architect",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"BUTest_Architect.ti",
+	"UIData":"CubeAction=1511€DataAction=1503€CubeLogChanges=0€_ParameterConstraints=e30=€",
+	"VariablesUIData":
+	[
+		"VarType=32€ColType=825€VarDimension=ERROR.D.Items€VarDimAction=Como Está€VarElemType=Sequência€VarDimElemSortType=BYINPUT€VarDimElemSortSense=ASCENDING€",
+		"VarType=32€ColType=825€VarDimension=ERROR.D.Rows€VarDimAction=Como Está€VarElemType=Sequência€VarDimElemSortType=BYINPUT€VarDimElemSortSense=ASCENDING€",
+		"VarType=32€ColType=825€VarDimension=ERROR.M.Metrics€VarDimAction=Como Está€VarElemType=Sequência€VarDimElemSortType=BYINPUT€VarDimElemSortSense=ASCENDING€",
+		"VarType=33€ColType=826€"
+	],
+	"DataSource":
+	{
+		"Type":"TM1CubeView",
+		"dataSourceNameForClient":"ERROR.BatchUpdate_Rules",
+		"dataSourceNameForServer":"ERROR.BatchUpdate_Rules",
+		"view":"View2"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"vItems",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vRows",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vMetrics",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vValor",
+			"Type":"Numeric",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

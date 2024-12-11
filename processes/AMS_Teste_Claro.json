@@ -1,0 +1,12 @@
+{
+	"@type":"Process",
+	"Name":"AMS_Teste_Claro",
+	"HasSecurityAccess":false,
+	"UIData":"_ParameterConstraints=e30=€",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

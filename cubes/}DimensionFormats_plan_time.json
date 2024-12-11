@@ -1,0 +1,21 @@
+{
+	"@type":"Cube",
+	"Name":"}DimensionFormats_plan_time",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('plan_time')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatStyles_plan_time')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatItems')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatAttributes')"
+		}
+	],
+	"Rules@Code.link":"}DimensionFormats_plan_time.rules",
+	"Views@Code.links":[]
+}

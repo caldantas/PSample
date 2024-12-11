@@ -1,0 +1,36 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+BatchUpdateStart;
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+n = CellGetN('ERROR.BatchUpdate_Rules', vItems,'Rule',vMetrics);
+
+CellPutN(n - 10, 'ERROR.BatchUpdate_Rules', vItems,'Input',vMetrics);
+
+# CellPutN(vValor - 1, 'ERROR.BatchUpdate_Rules', vItems,'Input',vMetrics);
+
+
+# ItemReject( NumberToString( nValue ) );
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+BatchUpdateFinish(0);
+#endregion

@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Entradas",
+	"Expression":"{[ERROR.D.Rows].[ERROR.D.Rows].MEMBERS}"
+}

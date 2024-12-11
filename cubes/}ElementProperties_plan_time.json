@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"}ElementProperties_plan_time",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('plan_time')"
+		},
+		{
+			"@id":"Dimensions('}ElementProperties')"
+		}
+	],
+	"Views@Code.links":[]
+}

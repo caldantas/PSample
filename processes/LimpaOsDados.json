@@ -1,0 +1,21 @@
+{
+	"@type":"Process",
+	"Name":"LimpaOsDados",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"LimpaOsDados.ti",
+	"UIData":"_ParameterConstraints=e30=€",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pCubo",
+			"Prompt":"Digite o nome do cubo a ser zerado: ",
+			"Value":" ",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"}DimensionFormats_plan_currency",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('plan_currency')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatStyles_plan_currency')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatItems')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatAttributes')"
+		}
+	],
+	"Views@Code.links":[]
+}

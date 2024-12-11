@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"ERROR.D.Rows",
+	"Hierarchies@Code.links":
+	[
+		"ERROR.D.Rows.hierarchies/ERROR.D.Rows.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ERROR.D.Rows')/Hierarchies('ERROR.D.Rows')"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"@type":"Process",
+	"Name":"teste_ODBC",
+	"HasSecurityAccess":false,
+	"UIData":"_ParameterConstraints=e30=€",
+	"DataSource":
+	{
+		"Type":"ODBC",
+		"dataSourceNameForClient":"TM1_12_ODBCIS",
+		"dataSourceNameForServer":"TM1_12_ODBCIS",
+		"password":"kuMkawy0S>\\n^]hvxUgS2<CX_7m`xJmQ9r2pdUzfE9SSl|4lUvC9:j:o]13ZsldrlLLb9f28`pF0ca5_rBZJkzIz<knaqi>rM1KZuZNyBIth;ta7bLRs^nJp;[4I=kD]ce=`L2H14k\\Pgq=:Z>TMUoGiBq9y@>ECZb3QqFcW:cO>d?yZ\\fg\\7ts;L73;9d<es>3B[uhq",
+		"query":"SELECT TOP (1000) [id]\r\n      ,[datasource_id]\r\n      ,[remote_id]\r\n      ,[last_seen]\r\n      ,[created_at]\r\n      ,[deleted]\r\n      ,[updated_at]\r\n  FROM [temadb].[dbo].[computers_persistent]",
+		"userName":"sa",
+		"usesUnicode":true
+	},
+	"Parameters":[],
+	"Variables":[]
+}

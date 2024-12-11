@@ -1,0 +1,5 @@
+#region Epilog
+#****GENERATED STATEMENTS START****
+#****GENERATED STATEMENTS FINISH****
+ReturnViewHandle('plan_BudgetPlan','Detailed Cost Of Sales Analysis');
+#endregion

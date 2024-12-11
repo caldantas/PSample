@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"tp_incr_temp_groups_{fd03c36c-e338-4a04-bae4-1277714ebd20}",
+	"Hierarchies@Code.links":
+	[
+		"tp_incr_temp_groups_{fd03c36c-e338-4a04-bae4-1277714ebd20}.hierarchies/tp_incr_temp_groups_{fd03c36c-e338-4a04-bae4-1277714ebd20}.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('tp_incr_temp_groups_{fd03c36c-e338-4a04-bae4-1277714ebd20}')/Hierarchies('tp_incr_temp_groups_{fd03c36c-e338-4a04-bae4-1277714ebd20}')"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"}DimensionFormats_plan_version",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('plan_version')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatStyles_plan_version')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatItems')"
+		},
+		{
+			"@id":"Dimensions('}DimensionFormatAttributes')"
+		}
+	],
+	"Views@Code.links":[]
+}

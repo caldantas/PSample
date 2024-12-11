@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"}SecurityOverlayGlobal_plan_BudgetPlan",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('plan_business_unit')"
+		},
+		{
+			"@id":"Dimensions('}SecurityOverlay')"
+		}
+	],
+	"Views@Code.links":[]
+}

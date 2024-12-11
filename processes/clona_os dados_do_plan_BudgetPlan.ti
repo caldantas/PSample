@@ -1,0 +1,19 @@
+#region Prolog
+
+BatchUpdateStart;
+
+OldCubeLogChanges = CUBEGETLOGCHANGES('plan_BudgetPlan_copy');
+CUBESETLOGCHANGES('plan_BudgetPlan_copy', 0);
+#endregion
+#region Data
+
+x = CellGetN( 'plan_BudgetPlan', vplan_version, vplan_business_unit, vplan_department, vplan_chart_of_accounts, vplan_exchange_rates, vplan_source, vplan_time );
+CellPutN( x, 'plan_BudgetPlan_copy', vplan_version, vplan_business_unit, vplan_department, vplan_chart_of_accounts, vplan_exchange_rates, vplan_source, vplan_time );
+
+#endregion
+#region Epilog
+
+CUBESETLOGCHANGES('plan_BudgetPlan_copy', OldCubeLogChanges);
+
+BatchUpdateFinish(0);
+#endregion

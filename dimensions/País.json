@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"País",
+	"Hierarchies@Code.links":
+	[
+		"País.hierarchies/País.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('País')/Hierarchies('País')"
+	}
+}
